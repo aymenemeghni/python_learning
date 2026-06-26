@@ -5,6 +5,9 @@ food = "banana"
 email = "meghnimohamedaymene@gmail.com"
 
 print("your name is",first_name)
+
+# "f" before the string used to format the string 
+
 print(f"your name is {first_name}")
 print(f"your favorite food is {food}")
 print(f"your name is {first_name} and your favorite food is {food}")
