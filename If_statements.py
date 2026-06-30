@@ -1,7 +1,9 @@
 #if statements
 #if statements used to make decisions
 #if condition:
-#    code to execute if condition is true   
+#    code to execute if condition is true  
+# elif condition:
+#    code to execute if condition is true 
 #else:
 #    code to execute if condition is false
 
