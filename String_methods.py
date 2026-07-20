@@ -16,7 +16,8 @@
 # .swapcase() method is used to swap the case of each letter in a string
 # .isdigit() method is used to check if a string is a digit (only integers)
 # .isdecimal() method is used to check if a string is a decimal (integers and decimals with a single decimal point)
-# .isalpha() method is used to check if a string is a letter
+# .isnumeric() method is used to check if a string is a numeric (integers and decimals with a single decimal point and unicode)
+# .isalpha() method is used to check if a string is a letter (only alphabets)
 # .isalnum() method is used to check if a string is a letter or a digit
 # .islower() method is used to check if a string is a lowercase
 # .isupper() method is used to check if a string is an uppercase
@@ -24,6 +25,7 @@
 # .startswith() method is used to check if a string starts with a specific substring
 # .endswith() method is used to check if a string ends with a specific substring
 # len() method is used to find the length of a string 
+# help() method is used to get the help of any method
 
 
 name =input("Enter your name: ").strip()
@@ -33,3 +35,5 @@ print(name.capitalize())
 print(name.title())
 print(name.split())
 print(name.replace(" ", "_"))
+
+help(str.lower)
