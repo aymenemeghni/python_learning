@@ -28,6 +28,8 @@
 # help() method is used to get the help of any method
 
 
+from string import templatelib
+from string import templatelib
 name =input("Enter your name: ").strip()
 print(name.lower())
 print(name.upper())
@@ -37,3 +39,16 @@ print(name.split())
 print(name.replace(" ", "_"))
 
 help(str.lower)
+
+# validate user input exercise 
+# username is not more than 12 chracters 
+# username must not contain spaces
+# username must not contain digits
+
+username =input("Enter your username: ")
+if len(username)>12:
+    print("Username is too long")
+elif username.isalpha() or username.find(" ")!=-1:
+    print("Username must not contain spaces or digits")
+else:
+    print("Username is valid")
