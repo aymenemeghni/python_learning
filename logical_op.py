@@ -10,6 +10,12 @@ elif temp > 30 and is_rainy:
     print("It's hot and rainy") 
 elif temp > 30 or is_rainy:
     print("It's hot or rainy")
+    
+    if not is_sunny:
+        print("It's not sunny")
+    else:
+        print("It's sunny")
+        
 else:
     print("It's neither hot nor rainy") 
 
