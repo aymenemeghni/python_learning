@@ -4,6 +4,9 @@
 # start is the starting index (inclusive)
 # stop is the ending index (exclusive)
 # step is the number of characters to skip (positive for forward, negative for backward)
+# if start or stop is not given, it is assumed to be the beginning or end of the string respectively
+# if step is not given, it is assumed to be 1
+
 
 name = input("Enter your name: ")
 
