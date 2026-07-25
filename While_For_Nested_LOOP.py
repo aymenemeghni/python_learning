@@ -9,9 +9,18 @@ while name != "":
     print("Hello ", name)
     name = input("Enter your name: ").strip()
 
-# For loop : excute some code for each item in a sequence
-# for [variable] in [sequence]:
+# For loop : excute some code for a fixed number of times
+# for [variable] in range([start],[stop],[step]):
 #     statement(s)
+# start is optional and default is 0 (inclusive)
+# stop is optional and default is 0 (exclusive)
+# step is optional and default is 1 
+#example:
+
+for i in range(10):
+    print(i)
+    
+
 
 # Nested loop : one loop inside another loop 
 # for [variable] in [sequence]:
