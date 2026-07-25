@@ -1,5 +1,7 @@
 #arthimatic operations 
-#+ , - , * , / , % , ** , //    
+#+ , - , * , / , % , ** , //
+# // :integer division
+    
 
 
 import math

@@ -1,5 +1,6 @@
 #just learning python 
 
+from ast import keyword
 first_name = "aymene"
 food = "banana"
 email = "meghnimohamedaymene@gmail.com"
@@ -23,3 +24,10 @@ print(type(food))
 age = input("How old are you?: ")
 
 print(f"you are {age} years old")
+
+#keyword
+#break :used to exit a loop
+#continue :used to skip an iteration
+#pass :used to do nothing
+#return :used to return a value
+#yield :used to return a generator
