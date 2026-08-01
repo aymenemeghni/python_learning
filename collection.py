@@ -8,6 +8,8 @@
 my_list = [1, 2, 3, 4, 5, 5, 5]
 print(my_list)
 print(my_list[0])
+print(my_list[0::2]) # syntax : list[start:stop:step]
+
 my_list.append(6) # add value to the end of the list
 print(my_list)
 my_list.remove(6) # remove value from the list
