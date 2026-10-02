@@ -10,7 +10,7 @@ print(capitals)   # print dictionary in order
 print(capitals.keys())  # print keys only
 print(capitals.values())  # print values only
 print(capitals.items())  # print key-value pairs
-print(capitals.get("algeria"))  # print value of key "algeria"
+print(capitals.get("algeria"))  # print value of key "algeria" , return false if not existe
 print(capitals.update({"usa":"new york"}))  # update value of key "usa"
 print(capitals.pop("usa"))  # remove key "usa"
 print(capitals.popitem())  # remove last key-value pair
