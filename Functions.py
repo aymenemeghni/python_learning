@@ -21,16 +21,23 @@
 # 5. Nested functions 
 
 # default arguments : a value that is assigned to a parameter in the function definition
+# the default value is use if no value is passed to the parameter
 def add(a, b = 20):
    return a + b
 print(add(10))
 
 # keyword arguments : arguments that are passed to the function in the form of keyword arguments
+# an argument preceded by a keyword, name is always precede by ** when it is used as a parameter
+# order doesn't matter in keyword arguments
 def add(a, b):
    return a + b
 print(add(a = 10, b = 20))
+print(add(b = 20, a = 10))
 
 #arbitrary arguments : arguments that are passed to the function in the form of arbitrary arguments
+# an argument preceded by a * when it is used as a parameter
+# the number of arguments can be anything
+#the arguments are stored in a tuple
 def add(*args):
    return sum(args)
 print(add(10, 20, 30, 40, 50))
